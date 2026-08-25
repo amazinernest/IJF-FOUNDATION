@@ -1,4 +1,4 @@
-import { Program, ImpactStat, ApproachStep, PartnerCategory, BlogPost, ValuePillar, Campaign, LiveFeedItem } from '../types';
+import { Program, ImpactStat, ApproachStep, PartnerCategory, BlogPost, ValuePillar } from '../types';
 
 export const FOUNDATION_INFO = {
   name: "Isaac Joseph-Fagbemi Foundation",
@@ -422,97 +422,5 @@ We invite individuals, corporate organizations, and development partners to join
     },
     image: "/images/youth-empo-1.jpg",
     imageAlt: "IJF Foundation Vision and Community Engagement"
-  }
-];
-
-export const INITIAL_CAMPAIGNS: Campaign[] = [
-  {
-    id: "camp-1",
-    title: "Youth Leadership Council Election 2026",
-    category: "Civic Election",
-    targetAmount: 5000000,
-    raisedAmount: 3450000,
-    votesCount: 1420,
-    status: "Live",
-    startDate: "2026-02-01",
-    endDate: "2026-03-31",
-    description: "Annual grassroots election and fundraising drive for 50 youth ambassador delegates representing university campuses.",
-    location: "Lagos & Abuja, Nigeria",
-    image: "/images/youth-empo-1-1.jpg"
-  },
-  {
-    id: "camp-2",
-    title: "Secondary School Digital Labs Fund",
-    category: "Education Tech",
-    targetAmount: 8000000,
-    raisedAmount: 6200000,
-    votesCount: 890,
-    status: "Live",
-    startDate: "2026-01-15",
-    endDate: "2026-04-15",
-    description: "Providing 100 refurbished laptop computers, internet routers, and coding bootcamps to rural secondary schools.",
-    location: "Oyo & Ogun State",
-    image: "/images/edu-21.jpg"
-  },
-  {
-    id: "camp-3",
-    title: "Young Female Founders Incubator Grant",
-    category: "Entrepreneurship",
-    targetAmount: 4000000,
-    raisedAmount: 4000000,
-    votesCount: 2150,
-    status: "Completed",
-    startDate: "2025-11-01",
-    endDate: "2026-01-31",
-    description: "Seed funding bursary and 6-month business mentorship for 20 women-owned micro-enterprises.",
-    location: "Kano & Enugu",
-    image: "/images/edu-5.jpg"
-  },
-  {
-    id: "camp-4",
-    title: "Grassroots Civic Leadership Ballot 2026",
-    category: "Civic Election",
-    targetAmount: 3000000,
-    raisedAmount: 1850000,
-    votesCount: 630,
-    status: "Active",
-    startDate: "2026-02-10",
-    endDate: "2026-05-01",
-    description: "Community voting and sponsorship drive to elect regional youth representatives for local council dialogues.",
-    location: "Rivers & Delta State",
-    image: "/images/civic-1.jpg"
-  }
-];
-
-export const INITIAL_LIVE_FEED: LiveFeedItem[] = [
-  {
-    id: "feed-1",
-    type: "donation",
-    actor: "Anonymous Supporter",
-    action: "donated to Youth Leadership Council Election",
-    amount: "₦50,000",
-    timeAgo: "2 mins ago"
-  },
-  {
-    id: "feed-2",
-    type: "vote",
-    actor: "Chidi O.",
-    action: "cast vote for Youth Ambassador Delegate",
-    timeAgo: "5 mins ago"
-  },
-  {
-    id: "feed-3",
-    type: "volunteer",
-    actor: "Amina K.",
-    action: "signed up as Digital Tech Mentor",
-    timeAgo: "12 mins ago"
-  },
-  {
-    id: "feed-4",
-    type: "grant",
-    actor: "IJF Foundation",
-    action: "disbursed student bursary award",
-    amount: "₦100,000",
-    timeAgo: "25 mins ago"
   }
 ];

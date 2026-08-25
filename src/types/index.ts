@@ -63,27 +63,3 @@ export interface ValuePillar {
   description: string;
   icon: string;
 }
-
-export interface Campaign {
-  id: string;
-  title: string;
-  category: string;
-  targetAmount: number;
-  raisedAmount: number;
-  votesCount: number;
-  status: 'Live' | 'Active' | 'Completed';
-  startDate: string;
-  endDate: string;
-  description: string;
-  location: string;
-  image: string;
-}
-
-export interface LiveFeedItem {
-  id: string;
-  type: 'donation' | 'vote' | 'volunteer' | 'grant';
-  actor: string;
-  action: string;
-  amount?: string;
-  timeAgo: string;
-}

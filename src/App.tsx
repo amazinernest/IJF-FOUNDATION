@@ -12,7 +12,6 @@ import { BlogPage } from './pages/BlogPage';
 import { BlogPostDetailPage } from './pages/BlogPostDetailPage';
 import { DonatePage } from './pages/DonatePage';
 import { ContactPage } from './pages/ContactPage';
-import { DashboardPage } from './pages/DashboardPage';
 import { WhatsAppWidget } from './components/common/WhatsAppWidget';
 
 export const App: React.FC = () => {
@@ -32,7 +31,6 @@ export const App: React.FC = () => {
             <Route path="/blog/:slug" element={<BlogPostDetailPage />} />
             <Route path="/donate" element={<DonatePage />} />
             <Route path="/contact" element={<ContactPage />} />
-            <Route path="/dashboard" element={<DashboardPage />} />
             <Route path="*" element={<HomePage />} />
           </Routes>
         </div>
